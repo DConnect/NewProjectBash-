@@ -2,10 +2,16 @@
  * Based on code Dr.Leong   ( WWW.B2CQSHOP.COM )
  * Created by Miguel Balboa (circuitito.com), Jan, 2012. 
  */
+ 
+ // creato ramo e messo terzo commento
 #ifndef RFID_h
 #define RFID_h
 
 #include <Arduino.h>
+
+// 4° commento aggiunto include Antani
+
+#include <Antani.h>
 #include <SPI.h>
 
 
