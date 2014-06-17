@@ -4,12 +4,18 @@
  * Created by Miguel Balboa, Jan, 2012. 
  * Released into the public domain.
  */
+ 
+ // Modifica numero 1: inserito commento 
 
 /******************************************************************************
  * Includes
  ******************************************************************************/
 #include <Arduino.h>
 #include <RFID.h>
+
+// modifica 2 aggiunto include
+
+#include <Antani.h>
 
 /******************************************************************************
  * User API
