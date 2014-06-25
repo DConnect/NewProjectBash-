@@ -29,7 +29,7 @@ do
 	echo "------------------------------------------------"
 	read -r -p "Scegli l'opzione [1-5] : " c
 	# take action
-	REPDIR=/media/RepoHD
+	REPDIR=/media/RepoHD  # directory dove vengono archiviati i repositories
 
 	case $c in
 		1) echo "------------------------------------------------------------"
