@@ -44,7 +44,7 @@ do
 		pause;;
 		2)echo "-----------------------------------------------"
 		  echo -e "\e[31m Inserisci un Nome per il Gruppo di Progetto \e[0m "
-   		   echo -e " \e[31m CTRL+C per uscire\e[0m"
+   		  echo -e " \e[31m CTRL+C per uscire\e[0m"
 		  echo "-----------------------------------------------"
 		  read namegroup
 		  echo
@@ -69,14 +69,14 @@ do
 		  echo
 		  echo "------------------------------------------"
 		  echo -e "\e[31m Inserisci il Nome di un GruppoProgetto:\e[0m"
-   		   echo -e " \e[31m CTRL+C per uscire\e[0m"
+   		  echo -e " \e[31m CTRL+C per uscire\e[0m"
 		  echo "------------------------------------------"
 		  echo
 		  read namegroup2
 		  echo
 		  echo "------------------------------------------"
 		  echo -e "\e[31m Quale utente inserire nel gruppo?\e[0m"
-		   echo -e " \e[31m CTRL+C per uscire\e[0m"
+		  echo -e " \e[31m CTRL+C per uscire\e[0m"
 		  echo "------------------------------------------"
 		  echo
 		  cat /etc/passwd | grep 1000* | cut -d: -f1 
